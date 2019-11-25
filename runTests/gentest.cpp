@@ -59,7 +59,7 @@ T mul(T x,U y,V MOD){
 int main(int argc, char *argv[]){
 	srand(time(NULL));
 	ofstream cout(argv[1]);
-        int n = 1 + rand() % 7;
+        int n = 1 + rand() % 15;
         vector <pii> edges;
         for(int i = 0;i < n;++i){
         	for(int j = i + 1;j < n;++j){
