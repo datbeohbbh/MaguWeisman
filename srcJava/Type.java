@@ -1,0 +1,5 @@
+public enum Type{
+    INDEPENDENT_SET,
+    REDUCE_EXPRESSION,
+    MAXIMUM_INDEPENDENT_SET;
+}
